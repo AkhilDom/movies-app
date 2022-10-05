@@ -104,7 +104,7 @@ const SearchScreen = ({ navigation }) => {
           ) : (
             <Center>
               <Text fontSize={20} fontWeight="bold" color={'#444'}>
-                Please Initiate the search
+                Please Initiate a search
               </Text>
             </Center>
           )}
