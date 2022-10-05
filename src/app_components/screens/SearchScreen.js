@@ -1,12 +1,12 @@
 import {
   Box,
   Button,
-  Center,
-  FormControl,
-  HStack,
   Icon,
   Input,
   Select,
+  Center,
+  FormControl,
+  HStack,
   Text,
   VStack,
 } from 'native-base';
@@ -103,7 +103,7 @@ const SearchScreen = ({ navigation }) => {
             <ListView list={searchResult} navigation={navigation} />
           ) : (
             <Center>
-              <Text fontSize={20} fontWeight="bold" color={'#444'}>
+              <Text fontSize={20} color={'#444'} fontWeight="bold" >
                 Please Initiate a search
               </Text>
             </Center>
